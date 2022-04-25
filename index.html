@@ -251,14 +251,42 @@
     </div>
   </section>
 
-  <div class="contact__video-wrapp">
-    <video class="contact__diveo" src="videofile.ogg" autoplay poster="/images/video.jpg">
-    </video>
-    <div class="contact__img-wrapp">
-      <img class="contact__images-vedeo" src="/images/play.svg" alt="">
+  <div class="video">
+    <div class="video__container">
+      <video controls class="video__item" src="videofile.ogg" autoplay poster="/images/video.jpg"></video>
+      <div class="video__img-container">
+        <img class="video__play" src="/images/play.svg" alt="">
+      </div>
     </div>
   </div>
 
+  <section class="map">
+    <div class="container__map">
+      <div class="map__title">
+        <div class="section-title">
+          Район на карте
+        </div>
+      </div>
+      <iframe class="map__item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d295735.64104064374!2d39.598036334197346!3d54.6139507530035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4149e0daf9942c45%3A0x686e75d547ae7470!2z0KDRj9C30LDQvdGB0LrQuNC5INGALdC9LCDQoNGP0LfQsNC90YHQutCw0Y8g0L7QsdC7Liwg0KDQvtGB0YHQuNGP!5e0!3m2!1sru!2sua!4v1650913674674!5m2!1sru!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </section>
+
+  <section class="question">
+    <div class="container">
+      <div class="section-title">
+        Есть вопросы?
+      </div>
+      <div class="form__wrap">
+        <form class="form" action="index.html" method="post">
+          <p class="form-text">*Мы никому не передаем ваши данные.И не сохраняем ваш номер в базу.
+          </p>
+          <input class="form-name" placeholder="Ваше имя" type="text" name="" value="">
+          <input class="form-number"  placeholder="Ваш телефон" type="text" name="" value="">
+          <button class="form-btn" type="button" name="button">Посмотреть район</button>
+        </form>
+      </div>
+    </div>
+  </section>
 
 
 
@@ -270,6 +298,7 @@
 
 </div>
 <script src="/js/jquery-3.6.0.min.js" type="text/javascript"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
 <script src="./js/code.js" type="text/javascript"></script>
 </body>
 </html>
