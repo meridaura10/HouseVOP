@@ -18,6 +18,9 @@ body {
   flex-direction: column;
   background: #242b33;
 }
+.burger{
+  display: none;
+}
 footer {
   margin-top: auto;
 }
