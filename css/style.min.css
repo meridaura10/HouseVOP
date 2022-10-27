@@ -92,7 +92,7 @@ footer {
   height: 8px;
   background: #9c9c9c;
   margin-top: 6px;
-}
+}o
 .burger {
   display: none;
 }
@@ -702,7 +702,6 @@ footer {
     width: 100%;
     max-width: 400px;
     margin: 0 auto;
-    padding: 0px 15px;
   }
   .contact__right-form {
     grid-template-columns: 0.8fr 0.8fr;
